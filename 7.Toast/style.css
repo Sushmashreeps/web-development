@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(193, 193, 246);
+}
+.button {
+    color: pink;
+    border: 0;
+    outline: 0;
+    width: 313px; 
+    height: 55px; 
+    margin: 50px;
+    cursor: pointer;
+    top: 40px;
+    box-shadow: 0 4px 8px rgba(204, 56, 56, 0.5); 
+}
+
+#toastBox{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    padding: 30px;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+.toast.error{
+    color: red;
+    font-size: 50px;
+    top: 200px;
+
+}
+.toast.Invalid{
+    font-size: 50px;
+    color: yellow;
+}
+.toast.success{
+    font-size: 50px;
+    color: rgb(9, 127, 230);
+}
+
+#b1{
+    size: 200px;
+    height: 50px;
+    width: 100px;
+}
+#b2{
+    size: 200px;
+    height: 50px;
+    width: 100px;
+}
+#b3{
+    size: 200px;
+    height: 50px;
+    width: 100px;
+}
